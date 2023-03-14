@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="site criando com o intuito de relembrar conteúdos específicos sobre JavaScript.">
+    <meta name="author" content="Murilo Araújo da Silva">
+    <meta name="Keywords" content="Dev, programador, junior, iniciante">
+    <title>Flash Cards</title>
+    <link rel="stylesheet" href="hightlight/default.min.css">
+    <link rel="stylesheet" href="SASS/import.css">
+</head>
+<body>
+
+<div id="main_container"> 
+    <!-- Botão -->
+        <div id="container-button">
+            <button id="button">
+                Sortear
+            </button>
+        </div>
+    <!-- Fim botão -->
+    <div id="res">
+        <!-- resultado 1 -->
+        <div class="result">
+            <div class="header">
+                <small>
+                    JavaScript: Conceitos Básicos
+                </small>
+                <small>
+                    Copy
+                </small>
+                </div>
+            <div class="code">
+                <pre>
+                    <code class="language-javascript">
+                    //VALORES PRIMITIVOS SÃO OS VALORES MAIS COMUNS NO JAVASCIRPT.
+                    //ALGUNS EXEMPLOS DE VALORES PRIMITIVOS:
+                    
+                    - Strings
+                    - Boleanos
+                    - Number
+                    - Null
+                    - Undefined
+                    - Symbol (ES6)
+                    
+                    //ONDE STRING REPRESETA TEXTO 
+                    //OBS: TODO TEXTO DENTRO DE ASPAS ("")('')
+
+                    //BOLEANOS REPRESETAM VALORES LÓGICOS: VERDADEIRO OU FALSO
+
+                    //NULL É UM VALOR ESPECIAL RETORNADO QUANDO NÃO EXISTE UM VALOR
+
+                    //UNDEFINED É SEMELHANTE A NULL COM UMA DIFERENÇA SUTIL
+                    </code>
+                </pre>
+            </div>
+        </div>
+        <div class="result">
+            <div class="header">
+                <small>
+                    JavaScript: Conceitos Básico
+                </small>
+                <small>
+                    Copy
+                </small>
+            </div>
+            <div class="code">
+                <pre>
+                    <code class="language-javascript">
+                    //EXISTE DOIS TIPOS DE VALORES ESPECIAL NO JAVASCRIPT, SÃO ELES: 
+
+                    - Objetos 
+                    - Arrays
+
+                    //ESSES DOIS VALORES SÃO MAIS COMPLEXOS QUE OS VALORES PRIMITVOS
+                    //ARRAYS SÃO OBJETOS ESPECIAIS.
+
+                    </code>
+                </pre>
+            </div>
+        </div>
+        <div class="result">
+            <div class="header">
+                <small>
+                    JavaScript: Conceitos Básico
+                </small>
+                <small>
+                    Copy
+                </small>
+            </div>
+            <div class="code">
+                <pre>
+                    <code class="language-javascript">
+                        //É POSSÍVEL PEGAR A DATA DO SEU APARELHO COM A API INTEGRADA NEW DATE()
+                        // EXEMPLOS
+
+                        Let Data = new Date()
+                        let hora = Data.getHours()
+
+                        /*Nesse exemplo pegamos todas as datas, horas, minutos e etc...
+                        e armazenamos na variável "Data"*/
+
+                        //É possível filtra qual informação você quer com alguns métodos 
+                        //O método getHours() pega apenas as horas 
+                        
+                        /* Entretanto poderia filtra apenas o dia, a semana, horas, minutos 
+                        segundos, dia da semana, e etc...*/
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--Script-->
+    <script src="hightlight/highlight.min.js"></script>
+    <script src="Js/script.js"></script>
+    <script>
+        hljs.highlightAll()
+    </script>
+</body>
+</html>
